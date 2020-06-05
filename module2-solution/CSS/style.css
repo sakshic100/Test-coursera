@@ -1,0 +1,182 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+	
+
+h1 {
+  text-align: center;
+}
+
+
+
+#box1 {
+	background-color: gray;
+	border: 1px solid black;
+	margin: 20px;
+	text-align: center;
+    width: 350px;
+    
+    height: 150px;
+   overflow: auto;
+   margin left: 70px;
+   margin-top: 50px;
+   margin-right: 20px;
+   float: left;
+}
+#box2{
+	background-color: gray;
+	border: 1px solid black;
+	margin: 20px;
+	
+	text-align: center;
+    width: 350px;
+    height: 150px;
+   overflow: auto;
+   margin left: 70px;
+   margin-top: 50px;
+   margin-right: 20px;
+   float: left;
+}
+#box3{
+	background-color: gray;
+	border: 1px solid black;
+	margin: 20px;
+		text-align: center;
+
+    width: 350px;
+    height: 150px;
+   /*overflow: auto;*/
+   margin left: 70px;
+   margin-top: 50px;
+   margin-right: 20px;
+   float: left;
+}
+#inbox1{
+	background-color: pink;
+	align-content:  right ;
+	width: 70px;
+	height: 20px;
+	padding-right: 20px;
+	border-color: black;
+	margin-left: 260px;
+    font-weight: bold;
+}
+#inbox2{
+	background-color: #b50505;
+    width: 70px;
+    font-weight:bold;
+	height: 20px;
+	padding-right: 20px;
+	text-align: right;
+	color: white;
+	margin-left: 260px;
+
+}
+
+
+#inbox3{
+	background-color:#faed5a;
+    width: 70px;
+	height: 20px;
+    font-weight: bold;
+	padding-right: 20px;
+	text-align: right;
+	color: black;
+	margin-left: 260px;
+    overflow: hidden;
+
+}
+
+
+
+
+
+/* desktop view */
+ @media ( min-width :992px) and (max-width: 1200px)
+ {
+   #box1{
+   	width:250px;
+   }
+   #inbox1{
+   	margin-left: 160px;
+   }
+
+
+   #box2{
+        	width:250px;
+        }
+   #inbox2{
+   	margin-left: 160px;
+   }     
+    
+   #box3{
+   	width: 250px;
+   }             
+        
+   #inbox3{
+   	margin-left: 160px;
+   }
+}
+
+ /* Tablet devices */
+  @media ( min-width: 768px) and (max-width: 991px) {
+    
+    #box1{
+    	width:320px;
+    }
+    #inbox1{
+    	margin-left: 230px;
+    }
+    #box2{
+    	width:320px;   	
+    }
+    #inbox2{
+    	margin-left: 230px;
+    }
+  	#box3 {
+  	width : 687px;	
+  
+  	font-size: 18px;
+  	margin-top: 20px;
+  	}
+
+    #inbox3{
+     margin-left:597px;
+    }
+  }
+ /* Mobile devices */
+     @media (max-width: 767px)
+      {
+  
+
+        #box1{
+        	width:400px;
+        	height: 190px;
+        }
+         
+         #inbox1{
+         	margin-left: 310px;
+         }
+
+        #box2{
+        	width:400px;
+        	height: 190px;
+
+        }
+
+        #inbox2{
+        	margin-left: 310px;
+        }
+
+         #box3{
+     	 width :400px;
+     	 height: 190px;
+
+     }
+         #inbox3{
+        	margin-left: 310px;
+        }     	
+
+  	}
+  </style>
